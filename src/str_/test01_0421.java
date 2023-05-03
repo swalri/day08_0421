@@ -90,31 +90,31 @@ public class test01_0421 {
 //		}
 //		System.out.println(ch_str);
 		//3번
-//		int num;
-//		while(true) {
-//			System.out.println("===================");
-//			System.out.println("1. ArrayList");
-//			System.out.println("2. HashSet");
-//			System.out.println("3. exit");
-//			System.out.print(">>> ");
-//			num = scan.nextInt();
-//			switch(num) {
-//			case 1:
-//				System.out.println("이번 당첨번호는 ");
-//				System.out.println(arr_lotto());
-//				break;
-//			case 2:
-//				System.out.println("이번 당첨번호는 ");
-//				System.out.println(set_lotto());
-//				break;
-//			case 3:
-//				System.out.println("종료합니다");
-//				System.exit(0);
-//				break;
-//			default:
-//				System.out.println("오류");
-//				break;
-//			}//switch
-//		}//while	
+		int num;
+		while(true) {
+			System.out.println("===================");
+			System.out.println("1. ArrayList");
+			System.out.println("2. HashSet");
+			System.out.println("3. exit");
+			System.out.print(">>> ");
+			num = scan.nextInt();
+			switch(num) {
+			case 1:
+				System.out.println("이번 당첨번호는 ");
+				System.out.println(arr_lotto());
+				break;
+			case 2:
+				System.out.println("이번 당첨번호는 ");
+				System.out.println(set_lotto());
+				break;
+			case 3:
+				System.out.println("종료합니다");
+				System.exit(0);
+				break;
+			default:
+				System.out.println("오류");
+				break;
+			}//switch
+		}//while	
 	}
 }
